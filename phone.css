@@ -1,0 +1,106 @@
+/* navigation bar */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul{
+position: absolute;
+top: 65px;
+padding-left: 14px;
+}
+
+#navbar::before{
+    height: 95px !important;
+}
+
+.list{
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+li:nth-child(5) a{
+    
+    height: 25px;
+    width: 87px;
+    white-space: nowrap;
+    padding-left: 11px !important;
+    padding-right: 26px !important;
+    display: none;
+}
+
+#account{
+    font-size: 15px;
+    position: absolute;
+    right: 509px;
+}
+
+
+/* home */
+
+#section{
+height: 119px !important;
+padding: 3px 4px !important;
+}
+
+#section::before{
+    height: 600px !important;
+}
+
+.btn1{
+    position: relative !important;
+    top: 137px !important;
+}
+
+#section h1{
+font-size: 32px !important;
+position: relative !important;
+top: 45px !important;
+}
+
+#section p{
+    position: relative !important;
+    top: 15px !important;
+font-size: 8px !important;
+padding: 0px 52px;
+
+}
+
+/* services */
+
+#section2 .services{
+    flex-direction: column;
+}
+
+#section2 .services .box{
+    padding: 9px 9px !important;
+    margin: 11px -10px !important;
+}
+/* partners*/
+
+#d1{
+    flex-wrap: wrap;
+    height: 266px;
+    
+}
+
+#d1 .img{
+    width: 105px;
+    height: auto !important;
+}
+
+.h1{
+    font-size: 1.8rem !important;
+    padding-bottom: 10px !important;
+}
+
+
+/* contact us */
+
+#contact input, #contact textarea{
+    width: 105% !important;
+}
+
+.btn2{
+    position: relative !important;
+    left: 57px !important;
+}
